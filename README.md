@@ -6,7 +6,7 @@ To run the application:
 Open the project in XCode and build the app and install it in an iPhone or an emulator.
 
 To reproduce the issue:
-Open the app, go to `Tab two`, scroll down and you'll see that the button text doesn't appear. If you click the button, the view is refresh and it appears. If you swipe a slide, scrolling previously to hide the button, and go back to that slide and scroll to see the button, you'll see the text is not there, until you click it.
+Open the app, go to `Tab two`, scroll down and you'll see that the text of the button is not visible. If you click the button, the view is refreshed and it appears. If you swipe a slide, scrolling previously to hide the button, and go back to that slide and scroll to see the button, you'll see the text is not visible until you click it.
 
 This only happen with iOS. It works in Chrome and Android.
 
