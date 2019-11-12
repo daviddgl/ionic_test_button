@@ -14,11 +14,7 @@ import { AppComponent } from "./app.component";
   entryComponents: [],
   imports: [
     BrowserModule,
-    IonicModule.forRoot({
-      mode: "md",
-      scrollAssist: true,
-      scrollPadding: true
-    }),
+    IonicModule.forRoot(),
     AppRoutingModule
   ],
   providers: [

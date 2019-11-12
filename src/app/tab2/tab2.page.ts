@@ -8,13 +8,6 @@ import { Component } from "@angular/core";
 export class Tab2Page {
   public slideOpts = {
     initialSlide: 1,
-    speed: 500,
-    // centeredSlides: true,
-    // slidesPerView: 1,
-    // spaceBetween: 10,
-    // autoHeight: true,
-    // preventInteractionOnTransition: true,
-    // longSwipes: false,
     pagination: {
       type: "progressbar",
       el: ".bar"
