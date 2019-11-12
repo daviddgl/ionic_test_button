@@ -1,1 +1,6 @@
-
+ion-slides,
+ion-slide {
+  overflow-y: scroll;
+  border-radius: 10px;
+  height: 100% !important;
+}
